@@ -1,5 +1,4 @@
 import scipy.io as sio
-# import matlab.engine
 
 def loadInfo(filename, option=2):
   mat_contents = sio.loadmat('frameInfo.mat')
