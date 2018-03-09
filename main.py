@@ -41,7 +41,7 @@ while True:
         contours, _ = cv2.findContours(mask.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
         if len(contours) > 0:
-            cv2.drawContours(frame, contours, -1, (0,255,0), 3)
+            cv2.drawContours(frame, contours, -1, (0,255,0), 2)
                 
                 
         # Display our object tracker
