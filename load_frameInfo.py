@@ -1,7 +1,7 @@
 import scipy.io as sio
 
-def loadInfo(filename, option=2):
-  mat_contents = sio.loadmat('frameInfo.mat')
+def loadInfo(filename):
+  mat_contents = sio.loadmat(filename)
   frameInfo = mat_contents['frameInfo'][0]
   frameInfoList = []
   for i in range(len(frameInfo)):
