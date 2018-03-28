@@ -1,1 +1,1 @@
-py -2.7 main.py
+run py -2.7 infra.py to execute python script to demo video contour tracking
